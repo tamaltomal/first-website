@@ -1,0 +1,75 @@
+#txtclr {
+  color: salmon;
+}
+
+#bgclr {
+  background-color: darkgray;
+}
+
+#para-one {
+  color: ivory;
+  background-color: lightcoral;
+  border-radius: 5px;
+}
+
+#para-two {
+  border-style: dashed;
+  border-radius: 3px;
+  padding: 5px;
+  width: 70%;
+}
+
+#para-three {
+  border-style: dashed;
+  border-radius: 3px;
+  padding: 5px;
+  width: 70%;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+}
+
+#para-four {
+  border-style: groove;
+  margin-top: 45px;
+  width: 50%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.para-group {
+  border-style: ridge;
+  width: 20%;
+  padding-left: 3px;
+  padding-top: 2px;
+  float: inline-start;
+  margin-left: 5px;
+}
+
+header {
+  width: 44%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  height: 35px;
+  border-style: double;
+  border-radius: 10px;
+  background-color: lightseagreen;
+}
+
+nav li {
+  float: left;
+  margin-right: 35px;
+  list-style-type: none;
+  color: ivory;
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav li a {
+  color: ivory;
+  text-decoration: none;
+}
