@@ -1,0 +1,104 @@
+h1 {
+  text-shadow: 1px 1px 2px red;
+}
+
+.div-1 {
+  background-color: rgb(233, 226, 233);
+  height: 450px;
+  width: 450px;
+  position: relative;
+  top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 5px rgb(146, 146, 146);
+  border-radius: 5px;
+}
+
+.top-bar {
+  background-color: rgb(180, 180, 180);
+  height: 8%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  height: 15px;
+  width: 15px;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.close {
+  background-color: red;
+}
+
+.min {
+  background-color: yellow;
+}
+
+.max {
+  background-color: greenyellow;
+}
+
+.choice {
+  background-color: rgb(212, 211, 211);
+  height: 50px;
+  width: 150px;
+  border-radius: 8px;
+  display: flex;
+  float: left;
+  position: relative;
+  top: 35%;
+  left: 11.5%;
+  align-items: center;
+  margin: 0px 15px;
+  box-shadow: 3px 3px 10px rgb(173, 173, 173);
+}
+
+.yes:hover {
+  background-color: crimson;
+  color: ivory;
+  box-shadow: 3px 3px 10px rgb(160, 14, 43);
+  font-size: 22px;
+  text-shadow: 0px 0px 1.5px ivory;
+}
+
+.of-course:hover {
+  background-color: lightgreen;
+  color: ivory;
+  box-shadow: 3px 3px 10px rgb(109, 182, 109);
+  font-size: 22px;
+  text-shadow: 0px 0px 1.5px ivory;
+}
+
+a {
+  color: cadetblue;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#query {
+  position: relative;
+  top: 90px;
+  font-size: 42px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: crimson;
+  font-weight: 900;
+  text-shadow: 3px 3px 5px rgb(150, 74, 66);
+  text-decoration: none;
+}
+#query:hover {
+  color: rgb(26, 247, 26);
+  text-shadow: 3px 3px 15px rgb(68, 199, 68);
+  font-weight: 1000;
+}
+
+span {
+  margin: auto;
+}
